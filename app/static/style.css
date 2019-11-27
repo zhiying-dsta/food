@@ -1,8 +1,9 @@
 body {
     background-color: #FFF;
-  margin: 0;
-  height: 100%;  /* adjust according to your screen height */
-  overflow-y: hidden;
+    margin: 0;
+    height: 100%;  /* adjust according to your screen height */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -25,6 +26,7 @@ body {
     height: 100%;
     width: 50%;
     color: #F1EB01;
+    scroll-behavior: smooth;
 }
 
 .title {
@@ -35,14 +37,17 @@ body {
 }
 
 .content {
-    margin-top: 10em;
+    margin-top: 5em;
     height: 100%;
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 .analyze {
     margin-top: 5em;
+    margin-bottom: 5px;
+    object-position: 5px 10%;
 }
 
 .upload-label {
