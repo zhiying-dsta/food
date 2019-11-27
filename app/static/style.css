@@ -1,5 +1,15 @@
 body {
-    background-color: #fff;
+    background-color: #FFF;
+  margin: 0;
+  height: 100%;  /* adjust according to your screen height */
+  overflow-y: hidden;
+}
+
+#header {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .no-display {
@@ -10,18 +20,25 @@ body {
     margin: auto;
     padding: 10px 50px;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
+    background:#4040FF;
+    height: 100%;
+    width: 50%;
+    color: #F1EB01;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color: #F1EB01;
 }
 
 .content {
     margin-top: 10em;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .analyze {
@@ -37,6 +54,7 @@ body {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 13px;
+    color: #ACE600;
 }
 
 button.choose-file-button {
@@ -44,7 +62,7 @@ button.choose-file-button {
     height: 40px;
     border-radius: 2px;
     background-color: #ffffff;
-    border: solid 1px #7052CB;
+    border: solid 2px #000000;
     font-size: 13px;
     color: #7052CB;
 }
@@ -52,7 +70,7 @@ button.choose-file-button {
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 2px #FFFFFF;
     border-radius: 2px;
     background-color: #7052CB;
     font-size: 13px;
