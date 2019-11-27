@@ -1,0 +1,87 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    height: 100%;  /* adjust according to your screen height */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+#header {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.no-display {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 20px;
+    background:#4040FF;
+    height: 100%;
+    width: 50%;
+    color: #F1EB01;
+    scroll-behavior: smooth;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #F1EB01;
+}
+
+.content {
+    margin-top: 5em;
+    height: 100%;
+    padding-top: 15px;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.analyze {
+    margin-top: 5em;
+    margin-bottom: 5px;
+    object-position: 5px 10%;
+}
+
+.upload-label {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    padding: 10px;
+    font-size: 13px;
+    color: #ACE600;
+}
+
+button.choose-file-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    font-size: 13px;
+    color: #7052CB;
+}
+
+button.analyze-button {
+    width: 200px;
+    height: 40px;
+    border: solid 2px #FFFFFF;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+button:focus {
+    outline: 0;
+}
