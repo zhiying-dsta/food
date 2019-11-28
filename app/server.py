@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1vhXQLA8fBWap5djNeIPU9dLsGZHqXOW5'
-export_file_name = 'export1.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1zi3xl_y0S1cwyzIQGgO_ktczZ3pxoY5x'
+export_file_name = 'export.pkl'
 
-classes = ['ripe banana', 'unripe banana', 'over ripe banana', 'tomato ripe', 'tomato unripe', 'tomato halfripe', 'ripe mango', 'unripe mango', 'ripe chilli', 'unripe chilli', 'ripe strawberry', 'unripe strawberry', 'ripe lychee', 'unripe lychee']
+classes = ['ripe banana', 'unripe banana', 'over ripe banana', 'ripe tomato', 'unripe tomato', 'half-ripe tomato', 'ripe mango', 'unripe mango', 'ripe chilli', 'unripe chilli', 'ripe strawberry', 'unripe strawberry', 'ripe lychee', 'unripe lychee']
 path = Path(__file__).parent
 
 app = Starlette()
