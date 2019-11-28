@@ -1,9 +1,12 @@
-body {
+body { /*
     background-color: #FFF;
     margin: 0;
-    height: 100%;  /* adjust according to your screen height */
-    overflow-y: hidden;
+    height: 100%;  */
     scroll-behavior: smooth;
+    background-image: url('fruit.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #header {
@@ -21,12 +24,13 @@ body {
     margin: auto;
     padding: 10px 50px;
     text-align: center;
-    font-size: 20px;
-    background:#4040FF;
+    font-size: 20px; /*
+    background:#4040FF; */
     height: 100%;
     width: 50%;
     color: #F1EB01;
     scroll-behavior: smooth;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .title {
@@ -34,6 +38,8 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
     color: #F1EB01;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-weight: 900;
 }
 
 .content {
@@ -48,6 +54,7 @@ body {
     margin-top: 5em;
     margin-bottom: 5px;
     object-position: 5px 10%;
+    font-weight: bold;
 }
 
 .upload-label {
@@ -58,8 +65,9 @@ body {
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 20px;
     color: #ACE600;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 button.choose-file-button {
@@ -70,6 +78,7 @@ button.choose-file-button {
     border: solid 2px #000000;
     font-size: 13px;
     color: #7052CB;
+    font-weight: bold;
 }
 
 button.analyze-button {
